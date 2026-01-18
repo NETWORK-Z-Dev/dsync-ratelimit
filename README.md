@@ -7,7 +7,7 @@ This small library is part of the dSync concept and will handle rate limits by e
 ## Basics
 
 ```js
-import RateLimiter from "@hackthedev/dsync-ratelimit";
+import dSyncRateLimit from "@hackthedev/dsync-ratelimit";
 
 const rateLimiter = new dSyncRateLimit({
     getIpLimit: async (req) => {
