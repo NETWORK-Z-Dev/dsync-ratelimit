@@ -1,0 +1,18 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 0,
+  "workspaces": {
+    "": {
+      "name": "@hackthedev/dsync-ratelimit",
+      "dependencies": {
+        "@hackthedev/arraytools": "^1.0.1",
+        "@hackthedev/dsync-ipsec": "^1.0.1",
+      },
+    },
+  },
+  "packages": {
+    "@hackthedev/arraytools": ["@hackthedev/arraytools@1.0.1", "", {}, "sha512-1XHKuqr0sNFUxYddX5G9HQdqtTmAAj7dAtEpqp9cFe+mGGkVjD8ce6/wIFLp0X+UlAMC8plIwePPN5klis64rA=="],
+
+    "@hackthedev/dsync-ipsec": ["@hackthedev/dsync-ipsec@1.0.1", "", {}, "sha512-KkmckbsyXY/CXnB0Ygh+GsXEKC//3/5ihJANPd9Nd9xmd6kr/lShS3K41ExpdgbTSIroK6RpbPqPGGCqjPWBBg=="],
+  }
+}
