@@ -32,6 +32,8 @@ const rateLimiter = new RateLimiter({
 
 ## Example Endpoint
 
+The following example code is just an example and meant to showcase how the rate limit middleware can be used.
+
 ```js
 app.post(
     "/login",
@@ -40,20 +42,11 @@ app.post(
         getTotalLimit: async () => 5,
         getBlockUntil: async () => new Date(Date.now() + 5 * 60_000)
     }),
-    loginHandler
+    async (req, res) => {
+        // whatever you wanna do in this endpoint
+    }
 );
 
-// another way
-app.get(
-    "/login",
-    rateLimiter.middleware({
-        getIpLimit: async (req) => {
-            if (req.user?.admin) return 1000;
-            return 50;
-        }
-    }),
-    handler
-);
 
 ```
 
