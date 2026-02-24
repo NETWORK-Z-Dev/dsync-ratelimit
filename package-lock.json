@@ -1,6 +1,6 @@
 {
   "name": "@hackthedev/dsync-ratelimit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This small library is part of the dSync concept and will handle rate limits by either defining and using custom, generic rate limits or by using an express middleware to enforce rate limits.",
   "homepage": "https://github.com/NETWORK-Z-Dev/dsync-ratelimit#readme",
   "bugs": {
