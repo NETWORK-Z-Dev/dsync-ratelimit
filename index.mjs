@@ -24,7 +24,7 @@ export default class dSyncRateLimit {
         return Date.now();
     }
 
-    export function calculateConsensus(votes, tolerance = null) {
+    calculateConsensus(votes, tolerance = null) {
         if (!votes || votes.length === 0) {
             return { value: null, result: [], disqualified: [] };
         }
