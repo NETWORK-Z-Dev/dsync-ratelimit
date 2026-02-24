@@ -17,7 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@hackthedev/arraytools": "^1.0.1",
-    "@hackthedev/dsync-ipsec": "^1.0.1"
+    "@hackthedev/arraytools": "^1.0.2",
+    "@hackthedev/dsync-ipsec": "^1.0.12"
   }
 }

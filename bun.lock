@@ -11,8 +11,8 @@
     },
   },
   "packages": {
-    "@hackthedev/arraytools": ["@hackthedev/arraytools@1.0.1", "", {}, "sha512-1XHKuqr0sNFUxYddX5G9HQdqtTmAAj7dAtEpqp9cFe+mGGkVjD8ce6/wIFLp0X+UlAMC8plIwePPN5klis64rA=="],
+    "@hackthedev/arraytools": ["@hackthedev/arraytools@1.0.2", "", {}, "sha512-rFr3L60vAqp6bs+ur2W3VqaavOzoyQxDFqGYU/R+ocgZ63Hh4nat7HRZOVqZ6BVHC/UuC4Q/Y8+BiX9i3xakkg=="],
 
-    "@hackthedev/dsync-ipsec": ["@hackthedev/dsync-ipsec@1.0.1", "", {}, "sha512-KkmckbsyXY/CXnB0Ygh+GsXEKC//3/5ihJANPd9Nd9xmd6kr/lShS3K41ExpdgbTSIroK6RpbPqPGGCqjPWBBg=="],
+    "@hackthedev/dsync-ipsec": ["@hackthedev/dsync-ipsec@1.0.12", "", {}, "sha512-aCPQu6Cypqa6kmIpGjmqVPsoRwaYWbtPBvhPkZjOPu/FI054DItr3gtcqCE8+sULJSzNwAo2Ol2NZP2HEWucEg=="],
   }
 }
