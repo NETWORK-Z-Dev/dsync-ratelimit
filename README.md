@@ -87,11 +87,23 @@ io.on("connection", (socket) => {
 });
 ```
 
+------
 
+## Consensus
 
+A `calculateConsensus` function has been added to possibly set dynamic rate limits.
 
+```js
+// exmaple
+const votes = [
+    ["userA", 12, 1],
+    ["userB", 13, 1],
+    ["userC", 11, 1],
+    ["userD", 48, 1], // spike
+];
 
-
+const { value, result, disqualified } = calculateConsensus(votes, 10);
+```
 
 
 
